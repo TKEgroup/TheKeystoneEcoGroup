@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';
+export const metadata:Metadata={title:"Contact The Keystone Eco Group | Project Enquiries",description:"Tell The Keystone Eco Group about your construction, green technology, sustainable materials or property development project. Based in Essex.",alternates:{canonical:"/contact"},openGraph:{title:"Contact The Keystone Eco Group | Project Enquiries",description:"Tell The Keystone Eco Group about your construction, green technology, sustainable materials or property development project. Based in Essex.",url:"/contact"}};
+export default function Layout({children}:{children:React.ReactNode}){return children;}
