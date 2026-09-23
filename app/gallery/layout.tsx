@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';
+export const metadata:Metadata={title:"Project Inspiration | The Keystone Eco Group",description:"Explore illustrative architectural and sustainability inspiration across Keystone's four divisions. Images are illustrative, not completed Keystone projects.",alternates:{canonical:"/gallery"},openGraph:{title:"Project Inspiration | The Keystone Eco Group",description:"Explore illustrative architectural and sustainability inspiration across Keystone's four divisions. Images are illustrative, not completed Keystone projects.",url:"/gallery"}};
+export default function Layout({children}:{children:React.ReactNode}){return children;}
