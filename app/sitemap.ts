@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{return ['','construction','green-technologies','sustainable-materials','developments','gallery','contact','areas-we-cover'].map(p=>({url:'https://thekeystoneecogroup.co.uk/'+p,lastModified:new Date()}));}
